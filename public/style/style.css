@@ -33,9 +33,7 @@ header {
     justify-content: center;
 }
 .card {
-    background: rgba(48, 49, 49, 0.25);
-    /* rgba(48, 49, 49, 0.25); */
-    /* rgba( 217, 229, 232, 0.25 ) */
+    background: rgba(91, 94, 95, 0.25);
     box-shadow: 0 2px 12px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
