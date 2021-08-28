@@ -60,6 +60,6 @@ app.post("/", (req, res) => {
 })
 
 
-app.listen(8000, () => {
-    console.log(`Server running at 8000/`);
+app.listen(port, () => {
+    console.log(`Server running at ${port}`);
   });
