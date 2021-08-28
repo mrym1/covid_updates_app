@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+main {
+    background-repeat: none;
+    background-size: cover;
+    background: radial-gradient(circle, rgba(103, 255, 57, 0.884) 0%,rgba(240, 57, 96, 0.938) 100%);
+    font-family: 'Ubuntu', sans-serif;
+    height: 100vh;
+}
+
+
+
