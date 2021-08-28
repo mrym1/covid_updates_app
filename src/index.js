@@ -6,7 +6,7 @@ const request = require("request");
 const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: false }));
 
-let Port = process.env.PORT || 8000;
+const port = process.env.PORT || 8000;
 
 const static_path = path.join(__dirname, "../public");
 const templates_path = path.join(__dirname, "../templates");
