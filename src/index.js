@@ -18,7 +18,7 @@ app.set("views",templates_path);
 
 app.get("/", (req, res) => {
   let country = "";
-  request(`https://restcountries.eu/rest/v2/`, (err, resp) => {
+  request(`https://corona.lmao.ninja/v2/countries/`, (err, resp) => {
       if (err) {
           res.status(404).render('404', {
               err: "Country Not Found"
@@ -29,7 +29,6 @@ app.get("/", (req, res) => {
       }
       res.render("index", {
           country1: country
-
       });
   });
 });
