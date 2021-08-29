@@ -36,7 +36,6 @@ app.get("/", (req, res) => {
 
 app.post("/", (req, res) => {
   let covid = "";
-  let year1 = new Date();
   request(`https://corona.lmao.ninja/v2/countries/${req.body.country}`, (err, resp) => {
       if (err) {
           res.status(404).render('error', {
@@ -52,7 +51,6 @@ app.post("/", (req, res) => {
           } else {
               res.render("covid", {
                   covid1: covid,
-                  year: year1.getFullYear()
               });
           }
       }
